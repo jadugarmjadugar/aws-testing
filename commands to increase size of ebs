@@ -1,0 +1,6 @@
+  lsblk
+  sudo file -s /dev/nvme?n*
+  sudo growpart /dev/nvme0n1 1
+  df -Th
+  sudo resize2fs /dev/nvme0n1p1
+  df -h
