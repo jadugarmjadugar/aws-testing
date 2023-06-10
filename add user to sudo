@@ -1,0 +1,8 @@
+#for every user create the password by using the commands
+sudo passwd username
+
+#for adding the user in the sudoers list
+sudo visudo
+
+#add user in the wheel list
+username ALL
