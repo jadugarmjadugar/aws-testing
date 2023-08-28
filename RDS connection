@@ -1,0 +1,13 @@
+##################################Public###############################
+
+1. Use the command directly 
+mysql -h mysql–instance1.123456789012.us-east-1.rds.amazonaws.com -P 3306 -u mymasteruser -p
+
+#################################Private################################
+
+1. From instances within the same VPC
+mysql -h mysql–instance1.123456789012.us-east-1.rds.amazonaws.com -P 3306 -u mymasteruser -p
+
+2. From you local machine you have to use port forwarding
+
+https://www.youtube.com/watch?v=buqBSiEEdQc
